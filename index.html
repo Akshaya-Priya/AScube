@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Translation and Transcription</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #transcript, #translation {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Live Translation and Transcription</h1>
+  <button onclick="startRecognition()">Start Listening</button>
+  <div id="transcript">
+    <h2>Transcript (English):</h2>
+    <p id="english-text"></p>
+  </div>
+  <div id="translation">
+    <h2>Translation (Regional Language):</h2>
+    <p id="translated-text"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
