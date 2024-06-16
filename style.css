@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: red;
+}
+.nav{
+    height:50px;
+    background-color: aqua;
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+}
+a{
+    margin-right:40px;
+    text-decoration:none;
+    font-size: larger;
+    margin-left:10px;
+}
+a:hover{
+    color:orangered;
+}
+button{
+    border-radius: 8px;
+    padding:8px;
+}
+button:hover{
+    color:orangered;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"], select, input[type="file"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+form{
+    border:2px solid black;
+    padding:18px;
+}
